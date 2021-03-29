@@ -5,7 +5,7 @@ body {
 
 .site-header{
     display: block;
-    margin: 0 auto; 
+    margin: -25px; 
 }
 
 .header-img{
@@ -133,8 +133,21 @@ p {
     text-align: justify;
     font-family:'raleway', sans-serif;
     color: black;
-    margin-bottom: -5%;
-    text-indent: 3ch;
+    margin-bottom: -8%;
+    /*text-indent: 3ch;*/
     position: absolute;
+    white-space: pre-line;
 }
- 
+
+.overflow-visible {
+    white-space: initial;
+}
+
+.overflow-clip {
+    text-overflow: clip;
+}
+  
+.overflow-ellipsis {
+    text-overflow: ellipsis;
+}
+  

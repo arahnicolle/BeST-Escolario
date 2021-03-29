@@ -5,7 +5,7 @@ body {
 
 .site-header{
     display: block;
-    margin: 0 auto; 
+    margin: -25px;
 }
 
 .header-img{
