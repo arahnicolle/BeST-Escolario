@@ -17,13 +17,14 @@ body {
 /* Navigation Bar */
 .sections{
     width: auto;
+    font-family: 'raleway', sans-serif;
 }
 
 li {
     display: inline-block;
     padding: 0px 25px 0px 15px;
     text-transform:uppercase;
-    font-family: ralewa;
+    font-family: 'Raleway', sans-serif;
     font-size: 12px;
     font-weight: bold;
     color: #002e5d; 
@@ -105,7 +106,7 @@ h1 {
 h2 {
     font-size: 3em;
     text-align: center;
-    font-family: 'raleway';
+    font-family: 'raleway', sans-serif;
     position: absolute;
     color: #002e5d;
     bottom: -25%;
@@ -114,7 +115,7 @@ h2 {
 p {
     font-size: 2em;
     text-align: center;
-    font-family: 'raleway';
+    font-family:'raleway', sans-serif;
     position: absolute;
     color: gray;
     bottom: -28%;   
@@ -123,6 +124,7 @@ p {
 #first {
     font-size: 15px;
     text-align: justify;
+    font-family:'raleway', sans-serif;
     color: black;
     margin-bottom: -6%;
    /* text-indent: 3ch;*/
