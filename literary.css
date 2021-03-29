@@ -18,7 +18,11 @@ body {
 .sections{
     width: auto;
     font-family: 'raleway', sans-serif;
-    
+    margin-top: -21px; 
+}
+
+a:visited{
+    color: #f1f1f1;
 }
 
 li {
@@ -91,7 +95,7 @@ h1 {
 .container {
     margin:20px auto;
     width: 685px;
-    background: #bf9b30;
+    background: #795c32;
     display: grid;
     grid-gap: 200px;
     grid-template-columns: repeat(3, 1fr);
@@ -111,6 +115,7 @@ h2 {
     position: absolute;
     color: #002e5d;
     bottom: -25%;
+    position: absolute;
 }
 
 p {
@@ -119,7 +124,8 @@ p {
     font-family:'raleway', sans-serif;
     position: absolute;
     color: gray;
-    bottom: -28%;   
+    bottom: -28%;  
+    position: absolute; 
 }
   
 #first {
@@ -127,21 +133,8 @@ p {
     text-align: justify;
     font-family:'raleway', sans-serif;
     color: black;
-    margin-bottom: -6%;
-   /* text-indent: 3ch;*/
+    margin-bottom: -5%;
+    text-indent: 3ch;
+    position: absolute;
 }
-/*.container > div{
-    border: 2px solid gray;
-    border-radius: 5px;
-    background: gray;
-    padding: 50px;
-}*/
-
-
-/*.h1 .hr.one {
-    border: none;
-    height: 10px;
-    color: silver;
-    
-}*/
  

@@ -18,7 +18,12 @@ body {
 .sections{
     width: auto;
     font-family: 'raleway', sans-serif;
+    margin-top: -21px; 
     
+}
+
+a:visited{
+    color: #f1f1f1;
 }
 
 li {
@@ -95,6 +100,7 @@ h2 {
     position: absolute;
     color: #002e5d;
     margin-left: 25%;
+    position: absolute;
 }
 
 h3 {
@@ -104,5 +110,6 @@ h3 {
     position: absolute;
     color: #002e5d;
     margin-left: 48%;
-    bottom: 30%;
+    bottom: 35%;
+    position: absolute;
 }

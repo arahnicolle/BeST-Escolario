@@ -18,6 +18,11 @@ body {
 .sections{
     width: auto;
     font-family: 'raleway', sans-serif;
+    margin-top: -21px; 
+}
+
+a:visited{
+    color: #f1f1f1;
 }
 
 li {
@@ -94,6 +99,7 @@ h2 {
     font-family: arial;
     position: absolute;
     color: #002e5d;   
+    position: absolute;
 }
 
 p{
@@ -103,7 +109,8 @@ p{
     font-family: 'raleway', sans-serif;
     position: absolute;
     color: gray;
-    bottom: 29%;  
+    bottom: 34%;  
+    position: absolute;
 }
 
 #first {
@@ -112,3 +119,5 @@ p{
     font-family:'raleway', sans-serif;
     color: black;
     margin-bottom: -6%;
+    position: absolute;
+}
