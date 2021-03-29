@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 6em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'arial';
+    /*position: absolute;*/
+    top: 50%;
+    left: 40%;
+    color: darkblue;
+}
+
+.container{
+    margin:20px auto;
+    width: 685px;
+    background: #bf9b30;
+    display: grid;
+    grid-gap: 200px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+    grid-row-start: 2;
+    grid-row-end: span 2;
+    grid-column-start: 0;
+    grid-column-end: 3; 
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    font-family: 'arial';
+    position: absolute;
+    color: darkblue;
+    bottom: 10%;
+}
+
+p{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'arial';
+    position: absolute;
+    color: gray;
+    bottom: 5%;  
+    
+}
+
+/*.container > div{
+    border: 2px solid gray;
+    border-radius: 5px;
+    background: gray;
+    padding: 50px;
+}*/
+
+
+/*.h1 .hr.one {
+    border: none;
+    height: 10px;
+    color: silver;
+    
+}*/
+ 
