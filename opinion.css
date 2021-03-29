@@ -10,7 +10,7 @@ body {
 
 .header-img{
     display: block;
-    margin: 0 auto;
+    margin: 25px auto;
     width: 100%;
 }
 
@@ -18,8 +18,7 @@ body {
 .sections{
     width: auto;
     font-family: 'raleway', sans-serif;
-    margin-top: -21px; 
-    
+    margin-top: -50px; 
 }
 
 a:visited{
@@ -109,7 +108,7 @@ h3 {
     font-family: 'raleway', sans-serif;
     position: absolute;
     color: #002e5d;
-    margin-left: 48%;
-    bottom: 35%;
+    margin-left: 47%;
+    bottom: 33%;
     position: absolute;
 }

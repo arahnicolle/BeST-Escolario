@@ -10,7 +10,7 @@ body {
 
 .header-img{
     display: block;
-    margin: 0 auto;
+    margin: 25px auto;
     width: 100%;
 }
 
@@ -18,7 +18,7 @@ body {
 .sections{
     width: auto;
     font-family: 'raleway', sans-serif;
-    margin-top: -21px; 
+    margin-top: -50px; 
 }
 
 a:visited{
@@ -109,7 +109,7 @@ p{
     font-family: 'raleway', sans-serif;
     position: absolute;
     color: gray;
-    bottom: 34%;  
+    bottom: 32%;  
     position: absolute;
 }
 
@@ -118,7 +118,7 @@ p{
     text-align: justify;
     font-family:'raleway', sans-serif;
     color: black;
-    margin-bottom: -8%;
+    margin-bottom: -6%;
     position: absolute;
     white-space: pre-line;
 }
