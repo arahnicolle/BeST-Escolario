@@ -18,6 +18,7 @@ body {
 .sections{
     width: auto;
     font-family: 'raleway', sans-serif;
+    
 }
 
 li {
@@ -88,27 +89,20 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 5em;
     text-align: center;
-    padding-left: 25%;
-    font-family: arial;
-    position: absolute;
-    color: #002e5d;   
-}
-
-p{
-    font-size: 2em;
-    text-align: center;
-    padding-left: 25%;
     font-family: 'raleway', sans-serif;
     position: absolute;
-    color: gray;
-    bottom: 29%;  
+    color: #002e5d;
+    margin-left: 25%;
 }
 
-#first {
-    font-size: 15px;
-    text-align: justify;
-    font-family:'raleway', sans-serif;
-    color: black;
-    margin-bottom: -6%;
+h3 {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'raleway', sans-serif;
+    position: absolute;
+    color: #002e5d;
+    margin-left: 48%;
+    bottom: 30%;
+}
