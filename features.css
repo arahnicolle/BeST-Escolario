@@ -157,8 +157,8 @@ a:active{
 
 .headline1{
     position: absolute;
-    bottom: -22%;
-    left: 350px;
+    bottom: -35%;
+    left: 300px;
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
     text-transform: lowercase;
@@ -246,6 +246,14 @@ a:active{
     font-family: 'Raleway', sans-serif;
 }
 
+#article-link{
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #002e5d;
+}
 
-
-
+.link-container2{
+    text-align: center;
+    padding-top: 10px;
+}

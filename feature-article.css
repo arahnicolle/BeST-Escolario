@@ -38,6 +38,9 @@ a:link, a:visited{
     color: #f1f1f1;
 }
 
+a.b{
+    color: #efc011;
+}
 /* style for the dropdown list */
 .dropbtn1 {
     display: inline-block;
@@ -120,8 +123,9 @@ a:active{
 .page-title{
     font-family: 'Raleway', sans-serif;
     color:#002e5d;
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
+    padding-top: 3%;
     margin: -3%;
     text-transform: uppercase;
 }
@@ -157,7 +161,7 @@ a:active{
 
 .headline1{
     position: absolute;
-    bottom: -22%;
+    bottom: -20%;
     left: 350px;
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
@@ -246,6 +250,14 @@ a:active{
     font-family: 'Raleway', sans-serif;
 }
 
+#article-link{
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #002e5d;
+}
 
-
-
+.link-container2{
+    text-align: center;
+    padding-top: 10px;
+}

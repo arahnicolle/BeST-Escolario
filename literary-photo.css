@@ -125,48 +125,57 @@ a:active{
     color: #efc011;
 }
 
-h1 {
-    font-size: 6em;
-    margin: 0;
-    padding: 0;
+.page-title{
+    font-family: 'Raleway', sans-serif;
+    color:#002e5d;
+    font-size: 3em;
     text-align: center;
-    font-family: 'arial';
-    font-weight: bold;
-    top: 50%;
-    left: 40%;
+    margin: -3%;
+    text-transform: uppercase;
+}
+
+.headline-container{
+    margin: 5px;
+}
+
+.sample-img{
+    width: 670px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    cursor: pointer;
+    filter: brightness(100%);
+}
+
+.title{
+    position: absolute;
+    left: 320px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
     color: #002e5d;
 }
 
-h2 {
-    font-size: 3em;
-    text-align: center;
-    padding-left: 25%;
-    font-family: arial;
-    position: absolute;
-    color: #002e5d;   
-    position: absolute;
-}
-
-h3{
-    font-size: 2em;
-    text-align: center;
-    padding-left: 25%;
-    font-family: 'raleway', sans-serif;
-    position: absolute;
+.byline{
+    font-weight: 400;
+    font-size: 25px;
+    padding-left: 5%;
+    margin-top: -16%;
+    text-transform: lowercase;
+    font-family: 'Raleway', sans-serif;
     color: #efc011;
-    bottom: 32%;  
-    position: absolute;
 }
 
 .text-container{
     font-size: 15px;
     margin-right: 50px auto;
-    margin-left: 25%;
     width: 51%;
     text-align: justify;
     font-family:'raleway', sans-serif;
     color: #002e5d;
-    bottom: 11%;
+    bottom: -68%;
     position: absolute;
     white-space: pre-line;
+    margin-left: 25%;
 }
