@@ -157,7 +157,7 @@ a:active{
 
 .headline1{
     position: absolute;
-    bottom: -22%;
+    bottom: -10%;
     left: 350px;
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
@@ -244,6 +244,11 @@ a:active{
 .text2{
     text-align:justify;
     font-family: 'Raleway', sans-serif;
+}
+
+.link-container2{
+    text-align: center;
+    padding-top: 10px;
 }
 
 
