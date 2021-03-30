@@ -152,16 +152,16 @@ a:active{
 .byline-format{
     text-align: right;
     font-weight: 400;
-    padding-right: 38%;
+    padding-right: 40%;
     margin-top: -6%;
 }
 
 .lead-format{
     margin-right: 50px auto;
-    width: 52.5%;
-    padding: 8px;
+    width: 50%;
+    padding: 10px;
     padding-top: 2%;
-    margin-left: 290px;
+    margin-left: 310px;
 }
 
 /* style for headline */
@@ -170,7 +170,7 @@ a:active{
 }
 
 .sample-img{
-    width: 670px;
+    width: 745px;
     height: 350px;
     display: block;
     margin-left: auto;
