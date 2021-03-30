@@ -47,11 +47,11 @@ a:hover, .dropdown:hover .dropbtn{
     display: inline-block;
     text-align: center;
     text-decoration: none;
-  }
+}
 
 li.dropdown {
     display: inline-block;
-  }
+}
   
 .dropdown-content {
     display: none;
@@ -60,7 +60,7 @@ li.dropdown {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
+}
   
 .dropdown-content a {
     color: #002e5d;
@@ -69,7 +69,7 @@ li.dropdown {
     text-transform: none;
     display: block;
     text-align: left;
-  }
+}
   
 .dropdown-content a:hover {
     background-color: #f1f1f1;
@@ -78,7 +78,48 @@ li.dropdown {
   
 .dropdown:hover .dropdown-content {
     display: block;
-  }
+}
+
+a:active{
+    color: #efc011;
+}
+
+.dropbtn1 {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+  
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content1 a {
+    color: #002e5d;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content1 a:hover {
+    background-color: #f1f1f1;
+    color: #efc011;
+}
+  
+.dropdown:hover .dropdown-content1 {
+    display: block;
+}
 
 a:active{
     color: #efc011;
@@ -96,23 +137,6 @@ h1 {
     color: #002e5d;
 }
 
-/*.container {
-    margin:20px auto;
-    width: 685px;
-    height: 10cm;
-    background: #795c32;
-    display: grid;
-    grid-gap: 200px;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.box {
-    grid-row-start: 2;
-    grid-row-end: span 2;
-    grid-column-start: 0;
-    grid-column-end: 3; 
-}*/
-
 .headline-container{
     margin: 5px;
 }
@@ -126,29 +150,24 @@ h1 {
     padding-top: 3%;
     cursor: pointer;
     filter: brightness(100%);
-    transition: filter .3s ease;
 }
 
-h2 {
-    font-size: 3em;
-    text-align: center;
-    font-family: 'raleway', sans-serif;
+.title{
     position: absolute;
+    left: 320px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
     color: #002e5d;
-    bottom: -25%;
-    position: absolute;
-    margin-left: 25%;
 }
 
-p {
-    font-size: 2em;
-    text-align: center;
-    font-family:'raleway', sans-serif;
-    position: absolute;
+.byline{
+    font-weight: 400;
+    font-size: 25px;
+    padding-left: 5%;
+    margin-top: -16%;
+    text-transform: lowercase;
+    font-family: 'Raleway', sans-serif;
     color: #efc011;
-    bottom: -30%;  
-    margin-left: 25%;
-    position: absolute; 
 }
 
 .text-container{
@@ -158,7 +177,7 @@ p {
     text-align: justify;
     font-family:'raleway', sans-serif;
     color: #002e5d;
-    bottom: -50%;
+    bottom: -52%;
     position: absolute;
     white-space: pre-line;
     margin-left: 25%;
