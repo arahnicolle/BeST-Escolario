@@ -96,7 +96,7 @@ h1 {
     color: #002e5d;
 }
 
-.container {
+/*.container {
     margin:20px auto;
     width: 685px;
     height: 10cm;
@@ -111,6 +111,22 @@ h1 {
     grid-row-end: span 2;
     grid-column-start: 0;
     grid-column-end: 3; 
+}*/
+
+.headline-container{
+    margin: 5px;
+}
+
+.sample-img{
+    width: 670px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    cursor: pointer;
+    filter: brightness(100%);
+    transition: filter .3s ease;
 }
 
 h2 {
@@ -121,6 +137,7 @@ h2 {
     color: #002e5d;
     bottom: -25%;
     position: absolute;
+    margin-left: 25%;
 }
 
 p {
@@ -129,7 +146,8 @@ p {
     font-family:'raleway', sans-serif;
     position: absolute;
     color: #efc011;
-    bottom: -28%;  
+    bottom: -30%;  
+    margin-left: 25%;
     position: absolute; 
 }
 
@@ -140,7 +158,8 @@ p {
     text-align: justify;
     font-family:'raleway', sans-serif;
     color: #002e5d;
-    bottom: -48%;
+    bottom: -50%;
     position: absolute;
     white-space: pre-line;
+    margin-left: 25%;
 }
