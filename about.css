@@ -578,9 +578,9 @@ h1 {
     margin-top: 3%;  
     display: block;
     font-size: 11px;
-    overflow-wrap: break-word;
     line-height: 1.6em;
     text-align: justify;
+    padding-right: 270px;
 }
 
 .content-vision{
